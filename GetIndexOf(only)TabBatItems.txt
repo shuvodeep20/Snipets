@@ -1,0 +1,3 @@
+func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
+    print(tabBar.items?.index(of: item))
+}

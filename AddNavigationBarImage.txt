@@ -1,0 +1,5 @@
+func addNavBarImage(){
+        let logo = UIImage(named: "navbar-title")
+        let imageView = UIImageView(image:logo)
+        self.navigationItem.titleView = imageView
+}
